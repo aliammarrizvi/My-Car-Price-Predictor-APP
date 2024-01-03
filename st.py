@@ -32,10 +32,10 @@ def get_parameter_values(parameter):
 		return []  # Default case, you may adjust it based on your requirements
 
 # Data for select boxes
-parameter_list = ['city', 'assembly', 'body', 'make', 'model', 'year', 'engine','transmission', 'fuel', 'color', 'registered', 'mileage']
+parameter_list = ['city', 'assembly', 'body', 'make', 'model', 'year', 'engine', 'transmission', 'fuel', 'color', 'registered', 'mileage']
 parameter_input_values = []
-parameter_description = ['Assembly', 'Make', 'Model', 'Engine', 'Transmission', 'Fuel', 'Color', 'Registered', 'Mileage', 'Year','Body','City']
-parameter_default_values = ['Local', 'Toyota', 'Corolla', '660', 'Manual', 'Petrol', 'Silver', 'Lahore', '150000', '2019','Crossover','Karachi']
+parameter_description = ['City', 'Assembly', 'Body', 'Make', 'Model', 'Year', 'Engine', 'Transmission', 'Fuel', 'Color', 'Registered', 'Mileage']
+parameter_default_values = ['Lahore', 'Local', 'Crossover', 'Toyota', 'Corolla', '2019', '660', 'Manual', 'Petrol', 'Silver', 'Lahore', '150000']
 
 model_path = r''
 
